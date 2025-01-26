@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.splash {
+    background-position: center;
+    background-size: cover;
+}
+
+.splashContent {
+    padding-top: 200px;
+    text-align: center;
+    top: 50px;
+}
+
+.full {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 75px;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+.box {
+    flex: 0 1 400px;
+    margin: 15px;
+}
+
+.imgBox {
+    height: 300px;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+}
+
+.navigation {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+a {
+    padding-right: 35px;
+}
+
+footer {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
